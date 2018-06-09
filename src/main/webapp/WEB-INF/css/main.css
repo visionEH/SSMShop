@@ -1,0 +1,45 @@
+.login{
+    margin : 150px auto 0 auto;
+    min-height: 420px;
+    max-width: 420px;
+    padding: 40px;
+    background-color: #ffffff;
+
+    border-radius: 4px;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+hr.hr15 {
+    height: 15px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.formbox {
+    width:300px;
+    margin:0 auto;
+
+}
+#darkbannerwrap {
+    background: url(../img/aiwrap.png);
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -58px;
+    position: relative;
+}
+body{
+    background: url(../img/bg.jpg);
+}
+.message {
+    margin: 10px 0 0 -58px;
+    padding: 18px 10px 18px 60px;
+    background: #27A9E3;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+.login span{
+    color: #1E9FFF;
+    float: right;
+}

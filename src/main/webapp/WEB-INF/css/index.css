@@ -1,0 +1,80 @@
+#headmenu{
+
+}
+
+#headmenu li:first-child{
+   margin-left: 80px;
+}
+#headtool {
+    background-color: #F0F0F0;
+    height: 40px;
+
+}
+
+#headtool span{
+    float: right;
+    cursor: pointer;/*鼠标悬浮出现小手*/
+    line-height:40px;
+    height: 40px;
+    display: block;
+    margin-right: 15px;
+}
+#product-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+#product-content strong{
+
+    font-weight: normal;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.wd10{
+    padding: 10px;
+}
+
+.image{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.product-list {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.product-list li {
+    width: 20%;
+    float: left;
+}
+.product-box{
+    width: 230px;
+    margin: 10px;
+    overflow: hidden;
+}
+.product-box img{
+    width: 230px;
+    height: 230px;
+}
+.product-box .name{
+    /*font-size: 13px;*/
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 5px;
+    display: block;
+}
+.product-box .price del{
+  color: #666;
+    margin-right: 10px;
+}
+.product-box span{
+    color: #e4393c;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#footer{
+    background-color: #1E9FFF;
+    height: 200px;
+    margin-top: 50px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--  原先的配置基本都被spring 接管 AOP 厉害呀-->
+    <!-- 别名配置 把entity包中简单类起个别名（如User类的别名就是user） -->
+    <typeAliases>
+        <package name="entity"/>
+    </typeAliases>
+</configuration>
